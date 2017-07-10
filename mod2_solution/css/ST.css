@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box
+
+}
+
+h1{
+
+   font-family: "times new roman";
+   text-align: center;
+    }
+
+.lorem{
+    border: solid 3px rgb(34, 35, 35);
+    padding: 5px;
+    background-color: gray;
+ font-family: bellefair;
+    margin: 20px;
+    
+    width: 150px;
+  
+}
+#chicken{
+    background-color: blue;
+    position: absolute
+        top:0 ;
+         right:0;
+    
+}
+
+
+#beef{
+    background-color:darksalmon;
+     position: absolute
+        top:0 ;
+         right:0;
+    
+        
+}
+
+
+#sushi{
+    background-color:deeppink;
+     position: absolute
+        top:0 ;
+         right:0;
+    
+}
+
+
+/*view for desktop*/
+@media (min-width:992px) {
+    .lorem{
+       float: left;
+        width: 33.33%; }
+}
+
+/*view for tablet*/
+@media (min-width:768px) and (max-width:991) {
+    .lorem{
+       float: left;
+        width: 50%; 
+    }
+}
+
+/*view for mobile*/
+@media (max-width:767px) {
+    .lorem{
+       float: left;
+        width: 100%; }
+}
